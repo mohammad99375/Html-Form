@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+}
+#firstname {
+}
+
+.header {
+    height: 75px;
+    background-color: #1BAEE3;
+    opacity: 0.7;
+}
+
+.h-wraper {
+    height: 100px;
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 5px;
+}
+.logo a img{
+    height: 50px;
+    margin: 9px 5px;
+}
+.logo a img:hover{
+    height: 55px;
+    margin: 5px 5px;
+}
+
+.menu{
+    position: absolute;
+    margin: 5px; 5px;
+    left: 90px;
+    top: 9px;
+}
+.menu ul{}
+.menu ul li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+    color: white;
+    font-weight: normal;
+    font-size: 20px  
+}
+.menu ul li a{
+    color: black;
+}
+a:link{
+  text-decoration:  none;
+  font-weight:      300;
+  color:            blue;
+  } 
+a:visited{
+  text-decoration:  none;
+  font-weight:      300;
+  color:            #f0f;
+  } 
+
+.signin {
+    position: absolute;
+    right: 90px;
+    top: 10px;
+}
+.signin form{
+    border-radius: 10px;
+}
+.signin form ul{}
+.signin form ul li{
+    list-style: none;
+    float: left;
+    padding: 5px;
+}
+.signin form ul li input{
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 1px;
+    padding: 5px;
+}
+#login{
+    width: 60px;
+    height: 25px;
+    margin: 5px auto;
+    padding: 4px;
+    background-color: #008000;
+    color: white;
+}
+#login:hover{
+    width: 60px;
+    height: 25px;
+    margin: 5px auto;
+    padding: 4px;
+    background-color: #009f00;
+    color: white;   
+}
+
+.signin h6{
+    margin: 0 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.body {
+    min-height: 1000px;
+}
+
+.b-wraper {
+    margin: 0px auto;
+    width: 1200px;
+    min-height: 800px;
+    position: relative;
+}
+
+.side-bar {
+    position: absolute;
+    right: 10px;
+    top: 90px;
+    
+}
+.side-bar img{
+    width: 500px;
+}
+.side-bar img:hover{
+    width: 520px;
+}
+
+.title h1{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    color: coral;
+    font-size: 50px;
+}
+.title h1:hover{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    color: #DD4A26;
+    font-size: 50px;
+}
+.contant {
+    margin: 0px 0px;
+    width: 750px;
+}
+.signup-form{
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    background-color: lightblue;
+    width: 400px;
+    color: black;
+}
+.contant form{
+}
+.contant form input{
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.group{
+    margin: 0px 10px;
+    padding: 10px;
+}
+#firstname{
+    width: 220px;
+    position: absolute;
+    right: 20px;
+    padding-left: 10px;
+}
+#lastname{
+    width: 220px;
+    position: absolute;
+    right: 20px;
+    padding-left: 10px;
+}
+#screenname{
+    width: 220px;
+    position: absolute;
+    right: 20px;   
+    padding-left: 10px;
+}
+#year{
+    position: absolute;
+    right: 87px;
+    height: 25px;
+    width: 55px;
+}
+#month{
+    position: absolute;
+    right: 153px;
+    height: 25px;
+    width: 50px;
+}
+#day{
+    position: absolute;
+    right: 213px;
+    height: 25px;
+    width: 40px;
+}
+.radio{
+    position: absolute;
+    right: 141px;
+    top: 155px;
+}
+#country{
+    position: absolute;
+    height: 25px;
+    width: 230px;
+    right: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+#email{
+    position: absolute;
+    right: 20px;
+    width: 220px;
+    padding-left: 10px;
+}
+#tel{
+    position: absolute;
+    right: 20px;
+    width: 220px;
+    padding-left: 10px;
+}
+#password{
+    position: absolute;
+    right: 20px;
+    width: 220px;
+    padding-left: 10px;
+}
+#c-password{
+    position: absolute;
+    right: 20px;
+    width: 220px;
+    padding-left: 10px;
+}
+#submit{
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    right: 160px;
+    top: 420px;
+    background-color: #19A15E;
+    color: white;
+}
+#submit:hover{
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    right: 160px;
+    top: 420px;
+    background-color: #008000;
+    color: white;
+}
+
+
+.footer {
+    height: 30px;
+    background-color: gainsboro;
+}
+
+.f-wraper {
+    margin: 0px auto;
+    width: 1200px;
+    position: relative;
+}
+
+.copy-write {
+    position: absolute;
+    left: 45%;
+    top: 10px;
+
+}
+.copy-write h6{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+
+}
